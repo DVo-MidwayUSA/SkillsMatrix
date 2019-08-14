@@ -1,20 +1,21 @@
 import "./main.css"
 import * as d3 from "d3"
-import data from "./data"
+import linkData from "./data/links"
+import nodeData from "./data/nodes"
 
-const links = data.links.map(d => Object.create(d))
-const nodes = data.nodes.map(d => Object.create(d))
+const links = linkData.map(d => Object.create(d))
+const nodes = nodeData.map(d => Object.create(d))
 
 const width = window.innerWidth - 10
 const height = window.innerHeight - 10
 const color = group =>
   ({
-    1: "#999",
-    2: "#666",
-    3: "#333"
+    1: "blue",
+    2: "green",
+    3: "red"
   }[group])
 
-const radius = 6
+const RADIUS = 4.5
 
 const simulation = d3
   .forceSimulation(nodes)
@@ -63,16 +64,16 @@ const drag = simulation => {
 
 const node = svg
   .append("g")
-  .attr("stroke", "#fff")
-  .attr("stroke-width", 1.5)
+  .attr("stroke", "#ddd")
+  .attr("stroke-width", 1)
   .selectAll("circle")
   .data(nodes)
   .join("circle")
-  .attr("r", radius)
+  .attr("r", RADIUS)
   .attr("fill", d => color(d.group))
   .call(drag(simulation))
 
-node.append("title").text(d => d.description)
+node.append("title").text(d => d.id + ": " + d.description)
 
 const label = svg
   .append("g")
@@ -80,12 +81,15 @@ const label = svg
   .data(nodes)
   .join("text")
   .text(d => d.id)
-  .attr("font-size", radius * 2)
+  .attr("font-size", d => RADIUS * (d.primary ? 2.2 : 2))
+  //.attr("font-weight", d => (d.primary ? "bold" : "normal"))
+  .attr("font-style", d => (d.primary ? "normal" : "italic"))
   .attr("fill", d => color(d.group))
+  .attr("fill-opacity", d => (d.primary ? 1 : 0.6))
   .attr("background", "white")
   .call(drag(simulation))
 
-label.append("title").text(d => d.description)
+label.append("title").text(d => d.id + ": " + d.description)
 
 simulation.on("tick", () => {
   link
@@ -95,5 +99,5 @@ simulation.on("tick", () => {
     .attr("y2", d => d.target.y)
 
   node.attr("cx", d => d.x).attr("cy", d => d.y)
-  label.attr("x", d => d.x + radius + radius * 0.7).attr("y", d => d.y + radius)
+  label.attr("x", d => d.x + RADIUS + RADIUS * 0.7).attr("y", d => d.y + RADIUS)
 })

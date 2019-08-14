@@ -1,0 +1,82 @@
+[
+  {
+    "source": "Programming",
+    "target": "Language - C#",
+    "value": 1
+  },
+  {
+    "source": "Programming",
+    "target": "Language - JavaScript",
+    "value": 1
+  },
+  {
+    "source": "Code Review",
+    "target": "Language - C#",
+    "value": 1
+  },
+  {
+    "source": "Code Review",
+    "target": "Language - JavaScript",
+    "value": 1
+  },
+  {
+    "source": "Unit Testing",
+    "target": "Language - C#",
+    "value": 1
+  },
+  {
+    "source": "Unit Testing",
+    "target": "Language - JavaScript",
+    "value": 1
+  },
+  {
+    "source": "Wallaby.js",
+    "target": "Unit Testing",
+    "value": 1
+  },
+  {
+    "source": "Wallaby.js",
+    "target": "Language - JavaScript",
+    "value": 1
+  },
+  {
+    "source": "NCrunch",
+    "target": "Unit Testing",
+    "value": 1
+  },
+  {
+    "source": "NCrunch",
+    "target": "Language - C#",
+    "value": 1
+  },
+  {
+    "source": "Software Design Lvl. 1",
+    "target": "Programming",
+    "value": 1
+  },
+  {
+    "source": "Software Design Lvl. 1",
+    "target": "OOP Design Principles",
+    "value": 1
+  },
+  {
+    "source": "Software Design Lvl. 1",
+    "target": "Functional Programming",
+    "value": 1
+  },
+  {
+    "source": "Agile Methodology",
+    "target": "SCRUM",
+    "value": 1
+  },
+  {
+    "source": "Agile Methodology",
+    "target": "Kanban",
+    "value": 1
+  },
+  {
+    "source": "Agile Methodology",
+    "target": "eXtreme Programming (XP)",
+    "value": 1
+  }
+]

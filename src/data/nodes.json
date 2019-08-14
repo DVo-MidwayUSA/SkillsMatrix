@@ -1,0 +1,88 @@
+[
+  {
+    "id": "Programming",
+    "description": "Writing software code in a specific language",
+    "primary": true,
+    "group": 1
+  },
+  {
+    "id": "Language - C#",
+    "description": "Programming language used by .NET environments",
+    "group": 1
+  },
+  {
+    "id": "Language - JavaScript",
+    "description": "Progamming language used by browsers and Node.js",
+    "group": 1
+  },
+  {
+    "id": "Code Review",
+    "description": "Peer review of program code prior to release",
+    "primary": true,
+    "group": 1
+  },
+  {
+    "id": "Unit Testing",
+    "description": "Writing software code that tests execution of other software code",
+    "primary": true,
+    "group": 1
+  },
+  {
+    "id": "Wallaby.js",
+    "description": "Unit test runner for JavaScript",
+    "group": 1
+  },
+  {
+    "id": "NCrunch",
+    "description": "Unit test runner for C#",
+    "group": 1
+  },
+  {
+    "id": "Software Design Lvl. 1",
+    "description": "Basic understandings of software architecture and implementation",
+    "primary": true,
+    "group": 1
+  },
+  {
+    "id": "OOP Design Principles",
+    "description": "Object-Oriented Programming Design Principles, SOLID",
+    "group": 1
+  },
+  {
+    "id": "Functional Programming",
+    "description": "Functional Programming application, pure functions",
+    "group": 1
+  },
+  {
+    "id": "Agile Methodology",
+    "description": "Understanding of Agile software development principles",
+    "group": 2
+  },
+  {
+    "id": "SCRUM",
+    "description": "Understanding of SCRUM software practices and principles",
+    "primary": true,
+    "group": 2
+  },
+  {
+    "id": "Kanban",
+    "description": "Understanding of Kanban software practices",
+    "group": 2
+  },
+  {
+    "id": "eXtreme Programming (XP)",
+    "description": "Understanding of XP software practices",
+    "group": 2
+  },
+  {
+    "id": "Web Browser Development",
+    "description": "Working knowledge of modern web browsers",
+    "primary": true,
+    "group": 3
+  },
+  {
+    "id": "HTTP Transport Lvl. 1",
+    "description": "Basic understanding of webservers, protocols, load-balancers, and request/response cycles",
+    "group": 3
+  }
+]
