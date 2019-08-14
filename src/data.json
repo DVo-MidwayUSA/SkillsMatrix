@@ -1,53 +1,61 @@
 {
   "nodes": [
     {
-      "id": "skill 1",
+      "id": "c# programming",
+      "description": "Programming in C#",
       "group": 1
     },
     {
-      "id": "skill 2",
+      "id": "c# unit testing",
+      "description": "",
       "group": 1
     },
     {
       "id": "skill 3",
+      "description": "",
       "group": 1
     },
     {
       "id": "skill 4",
+      "description": "",
+
       "group": 1
     },
     {
       "id": "skill 5",
+      "description": "",
       "group": 2
     },
     {
       "id": "skill 6",
+      "description": "",
       "group": 2
     },
     {
       "id": "skill 7",
+      "description": "",
       "group": 3
     }
   ],
   "links": [
     {
-      "source": "skill 1",
-      "target": "skill 2",
+      "source": "c# programming",
+      "target": "c# unit testing",
       "value": 1
     },
     {
-      "source": "skill 2",
+      "source": "c# unit testing",
       "target": "skill 3",
       "value": 1
     },
     {
       "source": "skill 4",
-      "target": "skill 2",
+      "target": "c# unit testing",
       "value": 1
     },
     {
       "source": "skill 5",
-      "target": "skill 2",
+      "target": "c# unit testing",
       "value": 1
     },
     {
@@ -57,7 +65,7 @@
     },
     {
       "source": "skill 6",
-      "target": "skill 2",
+      "target": "c# unit testing",
       "value": 1
     },
     {

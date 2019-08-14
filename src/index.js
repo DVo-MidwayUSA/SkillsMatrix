@@ -72,7 +72,7 @@ const node = svg
   .attr("fill", d => color(d.group))
   .call(drag(simulation))
 
-node.append("title").text(d => d.id)
+node.append("title").text(d => d.description)
 
 const label = svg
   .append("g")
@@ -85,7 +85,7 @@ const label = svg
   .attr("background", "white")
   .call(drag(simulation))
 
-label.append("title").text(d => d.id)
+label.append("title").text(d => d.description)
 
 simulation.on("tick", () => {
   link
