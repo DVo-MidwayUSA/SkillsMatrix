@@ -23,6 +23,10 @@
     {
       "id": "skill 6",
       "group": 2
+    },
+    {
+      "id": "skill 7",
+      "group": 3
     }
   ],
   "links": [
@@ -54,6 +58,11 @@
     {
       "source": "skill 6",
       "target": "skill 2",
+      "value": 1
+    },
+    {
+      "source": "skill 6",
+      "target": "skill 7",
       "value": 1
     }
   ]

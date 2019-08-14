@@ -7,7 +7,13 @@ const nodes = data.nodes.map(d => Object.create(d))
 
 const width = window.innerWidth - 10
 const height = window.innerHeight - 10
-const color = "#999"
+const color = group =>
+  ({
+    1: "#999",
+    2: "#666",
+    3: "#333"
+  }[group])
+
 const radius = 6
 
 const simulation = d3
@@ -63,7 +69,7 @@ const node = svg
   .data(nodes)
   .join("circle")
   .attr("r", radius)
-  .attr("fill", color)
+  .attr("fill", d => color(d.group))
   .call(drag(simulation))
 
 node.append("title").text(d => d.id)
@@ -75,7 +81,7 @@ const label = svg
   .join("text")
   .text(d => d.id)
   .attr("font-size", radius * 2)
-  .attr("fill", "black")
+  .attr("fill", d => color(d.group))
   .attr("background", "white")
   .call(drag(simulation))
 
