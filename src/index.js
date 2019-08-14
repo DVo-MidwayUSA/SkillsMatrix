@@ -2,12 +2,14 @@ import "./main.css"
 import * as d3 from "d3"
 import linkData from "./data/links"
 import nodeData from "./data/nodes"
+import drag from "./drag-events"
 
 const links = linkData.map(d => Object.create(d))
 const nodes = nodeData.map(d => Object.create(d))
 
 const width = window.innerWidth - 10
 const height = window.innerHeight - 10
+
 const color = group =>
   ({
     1: "blue",
@@ -15,7 +17,8 @@ const color = group =>
     3: "red"
   }[group])
 
-const RADIUS = 4.5
+const RADIUS = 3
+const FONT_SIZE = 5
 
 const simulation = d3
   .forceSimulation(nodes)
@@ -37,31 +40,6 @@ const link = svg
   .join("line")
   .attr("stroke-width", d => Math.sqrt(d.value))
 
-const drag = simulation => {
-  function dragstarted(d) {
-    if (!d3.event.active) simulation.alphaTarget(0.3).restart()
-    d.fx = d.x
-    d.fy = d.y
-  }
-
-  function dragged(d) {
-    d.fx = d3.event.x
-    d.fy = d3.event.y
-  }
-
-  function dragended(d) {
-    if (!d3.event.active) simulation.alphaTarget(0)
-    d.fx = null
-    d.fy = null
-  }
-
-  return d3
-    .drag()
-    .on("start", dragstarted)
-    .on("drag", dragged)
-    .on("end", dragended)
-}
-
 const node = svg
   .append("g")
   .attr("stroke", "#ddd")
@@ -81,7 +59,7 @@ const label = svg
   .data(nodes)
   .join("text")
   .text(d => d.id)
-  .attr("font-size", d => RADIUS * (d.primary ? 2.2 : 2))
+  .attr("font-size", d => FONT_SIZE * (d.primary ? 2.2 : 2))
   //.attr("font-weight", d => (d.primary ? "bold" : "normal"))
   .attr("font-style", d => (d.primary ? "normal" : "italic"))
   .attr("fill", d => color(d.group))
@@ -99,5 +77,7 @@ simulation.on("tick", () => {
     .attr("y2", d => d.target.y)
 
   node.attr("cx", d => d.x).attr("cy", d => d.y)
-  label.attr("x", d => d.x + RADIUS + RADIUS * 0.7).attr("y", d => d.y + RADIUS)
+  label
+    .attr("x", d => d.x + RADIUS + FONT_SIZE * 0.5)
+    .attr("y", d => d.y + RADIUS)
 })
