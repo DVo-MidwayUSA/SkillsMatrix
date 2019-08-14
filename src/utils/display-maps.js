@@ -1,4 +1,4 @@
-const groupcolor = group =>
+const groupColor = group =>
   ({
     1: "blue",
     2: "green",
@@ -6,15 +6,15 @@ const groupcolor = group =>
   }[group])
 
 const width = window.innerWidth - 10
-const height = window.innerHeight - 10
+const height = window.innerHeight - 50
 
 const RADIUS = 3
-const FONT_SIZE = 5
+const FONT_SIZE = 10
 
 export default {
-  groupcolor: groupcolor,
+  groupColor: groupColor,
   width: width,
   height: height,
-  noderadius: RADIUS,
-  fontsize: FONT_SIZE
+  nodeRadius: RADIUS,
+  fontSize: FONT_SIZE
 }

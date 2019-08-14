@@ -78,5 +78,25 @@
     "source": "Agile Methodology",
     "target": "eXtreme Programming (XP)",
     "value": 1
+  },
+  {
+    "source": "Web Browser Development",
+    "target": "HTTP Transport Lvl. 1",
+    "value": 1
+  },
+  {
+    "source": "Web Browser Development",
+    "target": "Cross-browser Testing",
+    "value": 1
+  },
+  {
+    "source": "Web Browser Development",
+    "target": "Programming",
+    "value": 2
+  },
+  {
+    "source": "SCRUM",
+    "target": "Programming",
+    "value": 2
   }
 ]

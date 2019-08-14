@@ -2,87 +2,103 @@
   {
     "id": "Programming",
     "description": "Writing software code in a specific language",
-    "primary": true,
+    "weight": 0,
     "group": 1
   },
   {
     "id": "Language - C#",
     "description": "Programming language used by .NET environments",
+    "weight": 2,
     "group": 1
   },
   {
     "id": "Language - JavaScript",
     "description": "Progamming language used by browsers and Node.js",
+    "weight": 2,
     "group": 1
   },
   {
     "id": "Code Review",
     "description": "Peer review of program code prior to release",
-    "primary": true,
+    "weight": 1,
     "group": 1
   },
   {
     "id": "Unit Testing",
     "description": "Writing software code that tests execution of other software code",
-    "primary": true,
+    "weight": 1,
     "group": 1
   },
   {
     "id": "Wallaby.js",
     "description": "Unit test runner for JavaScript",
+    "weight": 3,
     "group": 1
   },
   {
     "id": "NCrunch",
     "description": "Unit test runner for C#",
+    "weight": 3,
     "group": 1
   },
   {
     "id": "Software Design Lvl. 1",
     "description": "Basic understandings of software architecture and implementation",
-    "primary": true,
+    "weight": 1,
     "group": 1
   },
   {
     "id": "OOP Design Principles",
     "description": "Object-Oriented Programming Design Principles, SOLID",
+    "weight": 3,
     "group": 1
   },
   {
     "id": "Functional Programming",
     "description": "Functional Programming application, pure functions",
+    "weight": 2,
     "group": 1
   },
   {
     "id": "Agile Methodology",
     "description": "Understanding of Agile software development principles",
+    "weight": 1,
     "group": 2
   },
   {
     "id": "SCRUM",
     "description": "Understanding of SCRUM software practices and principles",
-    "primary": true,
+    "weight": 0,
     "group": 2
   },
   {
     "id": "Kanban",
     "description": "Understanding of Kanban software practices",
+    "weight": 2,
     "group": 2
   },
   {
     "id": "eXtreme Programming (XP)",
     "description": "Understanding of XP software practices",
+    "weight": 2,
     "group": 2
   },
   {
     "id": "Web Browser Development",
     "description": "Working knowledge of modern web browsers",
-    "primary": true,
+    "weight": 0,
     "group": 3
   },
   {
     "id": "HTTP Transport Lvl. 1",
     "description": "Basic understanding of webservers, protocols, load-balancers, and request/response cycles",
+    "weight": 2,
+    "group": 3
+  },
+  {
+    "id": "Cross-browser Testing",
+    "description": "Testing web software against multiple browser environments",
+    "weight": 1,
     "group": 3
   }
 ]

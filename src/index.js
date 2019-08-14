@@ -34,13 +34,14 @@ const link = svg
 
 const node = svg
   .append("g")
-  .attr("stroke", "#ddd")
+  .attr("stroke", "#999")
   .attr("stroke-width", 1)
+  .attr("stroke-opacity", 0.6)
   .selectAll("circle")
   .data(nodes)
   .join("circle")
-  .attr("r", display.noderadius)
-  .attr("fill", d => display.groupcolor(d.group))
+  .attr("r", display.nodeRadius)
+  .attr("fill", d => display.groupColor(d.group))
   .call(drag(simulation))
 
 node.append("title").text(d => d.id + ": " + d.description)
@@ -51,15 +52,15 @@ const label = svg
   .data(nodes)
   .join("text")
   .text(d => d.id)
-  .attr("font-size", d => display.fontsize * (d.primary ? 2.2 : 2))
-  .attr("font-weight", d => (d.primary ? "bold" : "normal"))
-  .attr("font-style", d => (d.primary ? "normal" : "italic"))
-  .attr("fill", d => display.groupcolor(d.group))
-  .attr("fill-opacity", d => (d.primary ? 1 : 0.6))
+  .attr("font-size", d => `${1 - d.weight / 10}em`)
+  .attr("font-weight", d => (d.weight === 0 ? "bold" : "normal"))
+  .attr("font-style", d => (d.weight < 2 ? "normal" : "italic"))
+  .attr("fill", d => display.groupColor(d.group))
+  .attr("fill-opacity", d => 1 - d.weight / 10)
   .attr("background", "white")
   .call(drag(simulation))
 
 label.append("title").text(d => d.id + ": " + d.description)
 
 const elements = [link, node, label]
-calculate(...elements, display.noderadius, display.fontsize, simulation)
+calculate(...elements, display.nodeRadius, display.fontSize, simulation)
