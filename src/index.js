@@ -3,6 +3,7 @@ import * as d3 from "d3"
 import linkData from "./data/links"
 import nodeData from "./data/nodes"
 import drag from "./drag-events"
+import calculate from "./calculate-position"
 
 const links = linkData.map(d => Object.create(d))
 const nodes = nodeData.map(d => Object.create(d))
@@ -60,7 +61,7 @@ const label = svg
   .join("text")
   .text(d => d.id)
   .attr("font-size", d => FONT_SIZE * (d.primary ? 2.2 : 2))
-  //.attr("font-weight", d => (d.primary ? "bold" : "normal"))
+  .attr("font-weight", d => (d.primary ? "bold" : "normal"))
   .attr("font-style", d => (d.primary ? "normal" : "italic"))
   .attr("fill", d => color(d.group))
   .attr("fill-opacity", d => (d.primary ? 1 : 0.6))
@@ -69,15 +70,5 @@ const label = svg
 
 label.append("title").text(d => d.id + ": " + d.description)
 
-simulation.on("tick", () => {
-  link
-    .attr("x1", d => d.source.x)
-    .attr("y1", d => d.source.y)
-    .attr("x2", d => d.target.x)
-    .attr("y2", d => d.target.y)
-
-  node.attr("cx", d => d.x).attr("cy", d => d.y)
-  label
-    .attr("x", d => d.x + RADIUS + FONT_SIZE * 0.5)
-    .attr("y", d => d.y + RADIUS)
-})
+const elements = [link, node, label]
+calculate(...elements, RADIUS, FONT_SIZE, simulation)
