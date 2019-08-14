@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "skill 1",
+      "group": 1
+    },
+    {
+      "id": "skill 2",
+      "group": 1
+    },
+    {
+      "id": "skill 3",
+      "group": 1
+    },
+    {
+      "id": "skill 4",
+      "group": 1
+    },
+    {
+      "id": "skill 5",
+      "group": 2
+    },
+    {
+      "id": "skill 6",
+      "group": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "skill 1",
+      "target": "skill 2",
+      "value": 1
+    },
+    {
+      "source": "skill 2",
+      "target": "skill 3",
+      "value": 1
+    },
+    {
+      "source": "skill 4",
+      "target": "skill 2",
+      "value": 1
+    },
+    {
+      "source": "skill 5",
+      "target": "skill 2",
+      "value": 1
+    },
+    {
+      "source": "skill 6",
+      "target": "skill 5",
+      "value": 1
+    },
+    {
+      "source": "skill 6",
+      "target": "skill 2",
+      "value": 1
+    }
+  ]
+}
