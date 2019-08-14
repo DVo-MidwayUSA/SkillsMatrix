@@ -2,8 +2,8 @@ import "./main.css"
 import * as d3 from "d3"
 import linkData from "./data/links"
 import nodeData from "./data/nodes"
-import drag from "./drag-events"
-import calculate from "./calculate-position"
+import drag from "./utils/drag-events"
+import calculate from "./utils/calculate-position"
 
 const links = linkData.map(d => Object.create(d))
 const nodes = nodeData.map(d => Object.create(d))
