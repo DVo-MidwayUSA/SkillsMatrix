@@ -44,7 +44,7 @@ const node = svg
   .attr("fill", d => display.groupColor(d.group))
   .call(dragNode(simulation))
 
-node.append("title").text(d => d.id + ": " + d.description)
+node.append("title").text(d => `Move: ${d.id}`)
 
 const label = svg
   .append("g")
@@ -64,3 +64,11 @@ label.append("title").text(d => d.id + ": " + d.description)
 
 const elements = [link, node, label]
 calculate(...elements, display.nodeRadius, display.fontSize, simulation)
+
+document.getElementById("help").addEventListener("click", e => {
+  const message = `Help:
+  \u2022 Drag a skill to move its position
+  \u2022 Drag a skills anchor to fix its position
+  \u2022 Hovering over a skill will reveal the description`
+  alert(message)
+})

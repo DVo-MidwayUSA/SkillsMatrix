@@ -16,21 +16,63 @@ header h1 {
   font-size: 15px;
   margin: 0;
   font-weight: normal;
-  color: white;
   line-height: 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: block;
+  float: left;
+}
+
+header h1 b {
+  color: #fff;
+}
+
+header a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #fff;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+header nav ul li a {
+  font-size: 12px;
+  line-height: 30px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+svg circle {
+  cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
 
-header h1 a {
-  text-decoration: none;
-  color: white;
-}
-
 svg text {
-  cursor: default;
+  cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
