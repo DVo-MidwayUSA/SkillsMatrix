@@ -1,0 +1,26 @@
+[
+  {
+    "id": "Coding",
+    "description": "Writing markup or styled code which is parsed by a browser",
+    "weight": 0,
+    "group": 4
+  },
+  {
+    "id": "CSS",
+    "description": "Writing Cascading Style Sheets (CSS) to be interpreted by a browser",
+    "weight": 1,
+    "group": 4
+  },
+  {
+    "id": "SASS / SCSS",
+    "description": "Writing Syntactically Awesome Style Sheets (CSS) to be interpreted by a browser",
+    "weight": 1,
+    "group": 4
+  },
+  {
+    "id": "HTML5",
+    "description": "Writing semantic markup to be parsed by a browser",
+    "weight": 1,
+    "group": 4
+  }
+]

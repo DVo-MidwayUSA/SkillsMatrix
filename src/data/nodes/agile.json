@@ -1,0 +1,44 @@
+[
+  {
+    "id": "Agile Methodology",
+    "description": "Understanding of Agile software development principles",
+    "weight": 1,
+    "group": 2
+  },
+  {
+    "id": "SCRUM",
+    "description": "Understanding of SCRUM software practices and principles",
+    "weight": 0,
+    "group": 2
+  },
+  {
+    "id": "Kanban",
+    "description": "Understanding of Kanban software practices",
+    "weight": 2,
+    "group": 2
+  },
+  {
+    "id": "eXtreme Programming (XP)",
+    "description": "Understanding of XP software practices",
+    "weight": 2,
+    "group": 2
+  },
+  {
+    "id": "Scrum Master",
+    "description": "Team process owner and facilitor",
+    "weight": 1,
+    "group": 2
+  },
+  {
+    "id": "Product Owner",
+    "description": "Project's key stakeholder",
+    "weight": 1,
+    "group": 2
+  },
+  {
+    "id": "Scrum Team",
+    "description": "Everyone working together to complete tasks for the sprint",
+    "weight": 1,
+    "group": 2
+  }
+]

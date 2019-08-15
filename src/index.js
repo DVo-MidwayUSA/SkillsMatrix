@@ -1,8 +1,8 @@
 import "./main.css"
 import * as d3 from "d3"
 
-import linkData from "./data/links"
-import nodeData from "./data/nodes"
+import linkData from "./data/links/"
+import nodeData from "./data/nodes/"
 
 import drag from "./utils/drag-events"
 import calculate from "./utils/calculate-position"

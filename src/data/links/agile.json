@@ -1,0 +1,22 @@
+[
+  {
+    "source": "Agile Methodology",
+    "target": "SCRUM",
+    "value": 1
+  },
+  {
+    "source": "Agile Methodology",
+    "target": "Kanban",
+    "value": 1
+  },
+  {
+    "source": "Agile Methodology",
+    "target": "eXtreme Programming (XP)",
+    "value": 1
+  },
+  {
+    "source": "SCRUM",
+    "target": "Programming",
+    "value": 2
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "Programming",
+    "description": "Writing software for computation or algorithm in a specific language",
+    "weight": 0,
+    "group": 1
+  },
+  {
+    "id": "Language - C#",
+    "description": "Programming language used by .NET environments",
+    "weight": 2,
+    "group": 1
+  },
+  {
+    "id": "Language - JavaScript",
+    "description": "Progamming language used by browsers and Node.js",
+    "weight": 2,
+    "group": 1
+  },
+  {
+    "id": "Code Review",
+    "description": "Peer review of program code prior to release",
+    "weight": 1,
+    "group": 1
+  },
+  {
+    "id": "Unit Testing",
+    "description": "Writing software code that tests execution of other software code",
+    "weight": 1,
+    "group": 1
+  },
+  {
+    "id": "Wallaby.js",
+    "description": "Unit test runner for JavaScript",
+    "weight": 3,
+    "group": 1
+  },
+  {
+    "id": "NCrunch",
+    "description": "Unit test runner for C#",
+    "weight": 3,
+    "group": 1
+  },
+  {
+    "id": "Software Design Lvl. 1",
+    "description": "Basic understandings of software architecture and implementation",
+    "weight": 1,
+    "group": 1
+  },
+  {
+    "id": "OOP Design Principles",
+    "description": "Object-Oriented Programming Design Principles, SOLID",
+    "weight": 3,
+    "group": 1
+  },
+  {
+    "id": "Functional Programming",
+    "description": "Functional Programming application, pure functions",
+    "weight": 2,
+    "group": 1
+  }
+]

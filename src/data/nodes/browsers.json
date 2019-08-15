@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Web Browser Development",
+    "description": "Working knowledge of modern web browsers",
+    "weight": 0,
+    "group": 3
+  },
+  {
+    "id": "HTTP Transport Lvl. 1",
+    "description": "Basic understanding of webservers, protocols, load-balancers, and request/response cycles",
+    "weight": 2,
+    "group": 3
+  },
+  {
+    "id": "Cross-browser Testing",
+    "description": "Testing web software against multiple browser environments",
+    "weight": 1,
+    "group": 3
+  },
+  {
+    "id": "Browser Debugging",
+    "description": "Debugging websites using browser development tools",
+    "weight": 1,
+    "group": 3
+  },
+  {
+    "id": "Accessibility (WCAG)",
+    "description": "Ensure WCAG accessibility standards are met for ADA compliance",
+    "weight": 1,
+    "group": 3
+  }
+]

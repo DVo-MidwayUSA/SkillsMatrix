@@ -1,0 +1,27 @@
+[
+  {
+    "source": "Web Browser Development",
+    "target": "HTTP Transport Lvl. 1",
+    "value": 1
+  },
+  {
+    "source": "Web Browser Development",
+    "target": "Cross-browser Testing",
+    "value": 1
+  },
+  {
+    "source": "Web Browser Development",
+    "target": "Programming",
+    "value": 2
+  },
+  {
+    "source": "Web Browser Development",
+    "target": "Browser Debugging",
+    "value": 1
+  },
+  {
+    "source": "Web Browser Development",
+    "target": "Accessibility (WCAG)",
+    "value": 1
+  }
+]

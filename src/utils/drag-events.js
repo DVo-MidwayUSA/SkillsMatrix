@@ -13,8 +13,8 @@ const dragged = d => {
 
 const dragended = (d, simulation) => {
   if (!d3.event.active) simulation.alphaTarget(0)
-  d.fx = null
-  d.fy = null
+  // d.fx = null
+  // d.fy = null
 }
 
 const drag = simulation => {
