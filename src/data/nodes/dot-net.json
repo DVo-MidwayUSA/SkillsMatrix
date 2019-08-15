@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ASP.NET",
+    "description": "Microsoft software development framework",
+    "weight": 0,
+    "group": 7
+  },
+  {
+    "id": ".NET Framework",
+    "description": "ASP.NET development libraries to support websites, services, desktop",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": ".NET Core",
+    "description": "Cross-platform development libraries to support websites, services, desktop",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": ".NET Standard",
+    "description": "Common libraries for .NET that run in multiple frameworks",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "NuGet",
+    "description": ".NET package manager",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "ASP.NET MVC 5",
+    "description": "Web development framework",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "ASP.NET WebAPI",
+    "description": "Web development framework",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "Azure",
+    "description": "",
+    "weight": 1,
+    "group": 7
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "Dev Ops",
+    "description": "Tools and infrastructure which support software delivery",
+    "weight": 0,
+    "group": 8
+  },
+  {
+    "id": "IDE",
+    "description": "Integrated Development Environment",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Visual Studio",
+    "description": "Microsoft proprietary Integrated Development Environment",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Visual Studio Code",
+    "description": "Microsoft open source code editor",
+    "weight": 1,
+    "group": 8
+  }
+]

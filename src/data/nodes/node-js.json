@@ -1,0 +1,56 @@
+[
+  {
+    "id": "Node.js",
+    "description": "",
+    "weight": 0,
+    "group": 9
+  },
+  {
+    "id": "Front-end Frameworks",
+    "description": "",
+    "weight": 1,
+    "group": 9
+  },
+  {
+    "id": "npm",
+    "description": "",
+    "weight": 1,
+    "group": 9
+  },
+  {
+    "id": "ReactJS",
+    "description": "",
+    "weight": 2,
+    "group": 9
+  },
+  {
+    "id": "AngularJS",
+    "description": "",
+    "weight": 2,
+    "group": 9
+  },
+  {
+    "id": "Redux",
+    "description": "",
+    "weight": 2,
+    "group": 9
+  },
+  {
+    "id": "Flux",
+    "description": "",
+    "weight": 4,
+    "group": 9
+  },
+  {
+    "id": "Angular2+",
+    "description": "",
+    "weight": 4,
+    "group": 9
+  },
+  {
+    "id": "Preact",
+    "description": "",
+    "weight": 4,
+    "group": 9
+  }
+]

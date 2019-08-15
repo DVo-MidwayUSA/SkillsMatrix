@@ -18,5 +18,35 @@
     "source": "SCRUM",
     "target": "Programming",
     "value": 2
+  },
+  {
+    "source": "SCRUM",
+    "target": "Scrum Master",
+    "value": 1
+  },
+  {
+    "source": "SCRUM",
+    "target": "Product Owner",
+    "value": 1
+  },
+  {
+    "source": "SCRUM",
+    "target": "Scrum Team",
+    "value": 1
+  },
+  {
+    "source": "Scrum Master",
+    "target": "Scrum Team",
+    "value": 1
+  },
+  {
+    "source": "Scrum Master",
+    "target": "Product Owner",
+    "value": 1
+  },
+  {
+    "source": "SCRUM",
+    "target": "Programming",
+    "value": 2
   }
 ]

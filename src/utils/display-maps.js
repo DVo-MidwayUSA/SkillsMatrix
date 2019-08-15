@@ -5,7 +5,10 @@ const groupColor = group =>
     3: "red",
     4: "orange",
     5: "purple",
-    6: "black"
+    6: "black",
+    7: "royalblue",
+    8: "darkgreen",
+    9: "firebrick"
   }[group])
 
 const width = window.innerWidth - 10

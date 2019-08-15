@@ -14,7 +14,7 @@
   {
     "id": "Language - JavaScript",
     "description": "Progamming language used by browsers and Node.js",
-    "weight": 2,
+    "weight": 1,
     "group": 1
   },
   {
@@ -57,6 +57,12 @@
     "id": "Functional Programming",
     "description": "Functional Programming application, pure functions",
     "weight": 2,
+    "group": 1
+  },
+  {
+    "id": "Language - Python",
+    "description": "Functional Programming application, pure functions",
+    "weight": 3,
     "group": 1
   }
 ]

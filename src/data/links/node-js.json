@@ -1,0 +1,47 @@
+[
+  {
+    "source": "Node.js",
+    "target": "Application Development",
+    "value": 2
+  },
+  {
+    "source": "Node.js",
+    "target": "Language - JavaScript",
+    "value": 2
+  },
+  {
+    "source": "Node.js",
+    "target": "Front-end Frameworks",
+    "value": 2
+  },
+  {
+    "source": "Node.js",
+    "target": "npm",
+    "value": 1
+  },
+  {
+    "source": "ReactJS",
+    "target": "npm",
+    "value": 1
+  },
+  {
+    "source": "AngularJS",
+    "target": "npm",
+    "value": 1
+  },
+  {
+    "source": "ReactJS",
+    "target": "Front-end Frameworks",
+    "value": 2
+  },
+  {
+    "source": "AngularJS",
+    "target": "Front-end Frameworks",
+    "value": 2
+  },
+  {
+    "source": "Redux",
+    "target": "Front-end Frameworks",
+    "value": 2
+  }
+]

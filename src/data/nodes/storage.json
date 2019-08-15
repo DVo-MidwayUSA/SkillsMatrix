@@ -1,0 +1,20 @@
+[
+  {
+    "id": "Data Storage",
+    "description": "Storage of data for software applications",
+    "weight": 0,
+    "group": 5
+  },
+  {
+    "id": "SQL Server",
+    "description": "Microsoft storage of data for software applications using SQL",
+    "weight": 1,
+    "group": 5
+  },
+  {
+    "id": "Redis",
+    "description": "NoSQL cache",
+    "weight": 2,
+    "group": 5
+  }
+]

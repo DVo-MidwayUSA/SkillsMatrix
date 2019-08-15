@@ -42,7 +42,7 @@ const node = svg
   .join("circle")
   .attr("r", display.nodeRadius)
   .attr("fill", d => display.groupColor(d.group))
-  .call(drag(simulation))
+  .call(drag(simulation, node))
 
 node.append("title").text(d => d.id + ": " + d.description)
 
@@ -58,7 +58,7 @@ const label = svg
   .attr("fill", d => display.groupColor(d.group))
   .attr("fill-opacity", d => 1 - d.weight / 10)
   .attr("background", "white")
-  .call(drag(simulation))
+  .call(drag(simulation, label))
 
 label.append("title").text(d => d.id + ": " + d.description)
 

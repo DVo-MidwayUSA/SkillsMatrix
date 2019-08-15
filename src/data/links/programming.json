@@ -63,5 +63,10 @@
     "source": "Software Design Lvl. 1",
     "target": "Functional Programming",
     "value": 1
+  },
+  {
+    "source": "Programming",
+    "target": "Application Development",
+    "value": 2
   }
 ]
