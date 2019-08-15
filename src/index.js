@@ -4,7 +4,7 @@ import * as d3 from "d3"
 import linkData from "./data/links/"
 import nodeData from "./data/nodes/"
 
-import drag from "./utils/drag-events"
+import { dragNode, dragLabel } from "./utils/drag-events"
 import calculate from "./utils/calculate-position"
 
 import display from "./utils/display-maps"
@@ -42,7 +42,7 @@ const node = svg
   .join("circle")
   .attr("r", display.nodeRadius)
   .attr("fill", d => display.groupColor(d.group))
-  .call(drag(simulation, node))
+  .call(dragNode(simulation))
 
 node.append("title").text(d => d.id + ": " + d.description)
 
@@ -58,7 +58,7 @@ const label = svg
   .attr("fill", d => display.groupColor(d.group))
   .attr("fill-opacity", d => 1 - d.weight / 10)
   .attr("background", "white")
-  .call(drag(simulation, label))
+  .call(dragLabel(simulation))
 
 label.append("title").text(d => d.id + ": " + d.description)
 

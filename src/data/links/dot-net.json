@@ -1,0 +1,62 @@
+[
+  {
+    "source": "ASP.NET",
+    "target": ".NET Core",
+    "value": 1
+  },
+  {
+    "source": "ASP.NET",
+    "target": ".NET Standard",
+    "value": 1
+  },
+  {
+    "source": ".NET Core",
+    "target": ".NET Standard",
+    "value": 1
+  },
+  {
+    "source": ".NET Framework",
+    "target": "ASP.NET",
+    "value": 1
+  },
+  {
+    "source": ".NET Framework",
+    "target": ".NET Standard",
+    "value": 1
+  },
+  {
+    "source": "ASP.NET",
+    "target": "Azure",
+    "value": 1
+  },
+  {
+    "source": "ASP.NET",
+    "target": "ASP.NET MVC 5",
+    "value": 1
+  },
+  {
+    "source": "ASP.NET MVC 5",
+    "target": ".NET Standard",
+    "value": 1
+  },
+  {
+    "source": "ASP.NET WebAPI",
+    "target": ".NET Standard",
+    "value": 1
+  },
+  {
+    "source": "ASP.NET WebAPI",
+    "target": "ASP.NET",
+    "value": 1
+  },
+  {
+    "source": "ASP.NET",
+    "target": "NuGet",
+    "value": 1
+  },
+  {
+    "source": "ASP.NET",
+    "target": "Application Development",
+    "value": 2
+  }
+]

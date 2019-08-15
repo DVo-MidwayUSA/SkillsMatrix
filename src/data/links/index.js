@@ -4,6 +4,7 @@ import browsers from "./browsers"
 import coding from "./coding"
 import storage from "./storage"
 import nodeJs from "./node-js"
+import dotNet from "./dot-net"
 
 const links = [
   ...programming,
@@ -11,7 +12,8 @@ const links = [
   ...browsers,
   ...coding,
   ...storage,
-  ...nodeJs
+  ...nodeJs,
+  ...dotNet
 ]
 
 export default links

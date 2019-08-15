@@ -13,13 +13,18 @@ const dragged = d => {
 
 const dragended = (d, simulation) => {
   if (!d3.event.active) simulation.alphaTarget(0)
-  if (d.weight > 1) {
-    d.fx = null
-    d.fy = null
-  }
+  d.fx = null
+  d.fy = null
 }
 
-const drag = simulation => {
+const dragNode = simulation => {
+  return d3
+    .drag()
+    .on("start", d => dragstarted(d, simulation))
+    .on("drag", dragged)
+}
+
+const dragLabel = simulation => {
   return d3
     .drag()
     .on("start", d => dragstarted(d, simulation))
@@ -27,4 +32,4 @@ const drag = simulation => {
     .on("end", d => dragended(d, simulation))
 }
 
-export default drag
+export { dragLabel, dragNode }
