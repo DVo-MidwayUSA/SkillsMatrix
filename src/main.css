@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   margin: 0;
   padding: 0;
-  background-image: radial-gradient(circle, #fff, #ddd, #eee);
+  background-image: radial-gradient(circle, #fff, #f7f9f9, #979a9a);
 }
 
 header {
