@@ -66,9 +66,17 @@ const elements = [link, node, label]
 calculate(...elements, display.nodeRadius, display.fontSize, simulation)
 
 document.getElementById("help").addEventListener("click", e => {
-  const message = `Help:
-  \u2022 Drag a skill to move its position
-  \u2022 Drag a skills anchor to fix its position
-  \u2022 Hovering over a skill will reveal the description`
+  const message = `Technical Skills Map - Help:
+  \u2022 Drag a skill to move or reposition
+  \u2022 Drag an anchor to fix position
+  \u2022 Click a skill release an anchor
+  \u2022 Double-click a skill to view description`
   alert(message)
+})
+
+document.querySelectorAll("text").forEach(label => {
+  label.addEventListener("dblclick", e => {
+    const description = e.currentTarget.querySelector("title").textContent
+    alert(description)
+  })
 })

@@ -18,8 +18,26 @@
     "group": 8
   },
   {
-    "id": "Visual Studio Code",
+    "id": "VS Code",
     "description": "Microsoft open source code editor",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Notepad++",
+    "description": "Open source code editor",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "LINQPad",
+    "description": "Light-weight editor for C#, F#, and VB",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "SQL Server Management Studio",
+    "description": "Microsoft propietary IDE for SQL",
     "weight": 1,
     "group": 8
   }

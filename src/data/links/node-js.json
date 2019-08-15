@@ -6,7 +6,7 @@
   },
   {
     "source": "Node.js",
-    "target": "Language - JavaScript",
+    "target": "JavaScript",
     "value": 2
   },
   {
@@ -35,13 +35,28 @@
     "value": 2
   },
   {
+    "source": "Preact",
+    "target": "ReactJS",
+    "value": 1
+  },
+  {
     "source": "AngularJS",
     "target": "Front-end Frameworks",
-    "value": 2
+    "value": 1
   },
   {
     "source": "Redux",
     "target": "Front-end Frameworks",
-    "value": 2
+    "value": 1
+  },
+  {
+    "source": "Angular2+",
+    "target": "Front-end Frameworks",
+    "value": 1
+  },
+  {
+    "source": "Flux",
+    "target": "Redux",
+    "value": 1
   }
 ]

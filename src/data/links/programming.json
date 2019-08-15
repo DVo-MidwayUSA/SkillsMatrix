@@ -1,32 +1,32 @@
 [
   {
     "source": "Programming",
-    "target": "Language - C#",
+    "target": "C#",
     "value": 1
   },
   {
     "source": "Programming",
-    "target": "Language - JavaScript",
+    "target": "JavaScript",
     "value": 1
   },
   {
     "source": "Code Review",
-    "target": "Language - C#",
+    "target": "C#",
     "value": 1
   },
   {
     "source": "Code Review",
-    "target": "Language - JavaScript",
+    "target": "JavaScript",
     "value": 1
   },
   {
     "source": "Unit Testing",
-    "target": "Language - C#",
+    "target": "C#",
     "value": 1
   },
   {
     "source": "Unit Testing",
-    "target": "Language - JavaScript",
+    "target": "JavaScript",
     "value": 1
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "source": "Wallaby.js",
-    "target": "Language - JavaScript",
+    "target": "JavaScript",
     "value": 1
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "source": "NCrunch",
-    "target": "Language - C#",
+    "target": "C#",
     "value": 1
   },
   {
@@ -68,5 +68,10 @@
     "source": "Programming",
     "target": "Application Development",
     "value": 2
+  },
+  {
+    "source": "Programming",
+    "target": "Python",
+    "value": 1
   }
 ]

@@ -5,6 +5,7 @@ import coding from "./coding"
 import storage from "./storage"
 import nodeJs from "./node-js"
 import dotNet from "./dot-net"
+import devOps from "./dev-ops"
 
 const links = [
   ...programming,
@@ -13,7 +14,8 @@ const links = [
   ...coding,
   ...storage,
   ...nodeJs,
-  ...dotNet
+  ...dotNet,
+  ...devOps
 ]
 
 export default links
