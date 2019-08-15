@@ -1,7 +1,7 @@
 [
   {
     "id": "Programming",
-    "description": "Writing software code in a specific language",
+    "description": "Writing software for computation or algorithm in a specific language",
     "weight": 0,
     "group": 1
   },
@@ -100,5 +100,29 @@
     "description": "Testing web software against multiple browser environments",
     "weight": 1,
     "group": 3
+  },
+  {
+    "id": "Browser Debugging",
+    "description": "Debugging websites using browser development tools",
+    "weight": 1,
+    "group": 3
+  },
+  {
+    "id": "Coding",
+    "description": "Writing markup or styled code which is parsed by a browser",
+    "weight": 0,
+    "group": 4
+  },
+  {
+    "id": "CSS",
+    "description": "Writing Cascading Style Sheets (CSS) to be interpreted by a browser",
+    "weight": 1,
+    "group": 4
+  },
+  {
+    "id": "SASS / SCSS",
+    "description": "Writing Syntactically Awesome Style Sheets (CSS) to be interpreted by a browser",
+    "weight": 1,
+    "group": 4
   }
 ]
