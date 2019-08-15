@@ -66,6 +66,7 @@ const elements = [link, node, label]
 calculate(...elements, display.nodeRadius, display.fontSize, simulation)
 
 document.getElementById("help").addEventListener("click", e => {
+  e.preventDefault()
   const message = `Technical Skills Map - Help:
   \u2022 Drag a skill to move or reposition
   \u2022 Drag an anchor to fix position
