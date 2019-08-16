@@ -1,11 +1,11 @@
 [
   {
     "source": "Coding",
-    "target": "CSS",
+    "target": "CSS 3",
     "value": 1
   },
   {
-    "source": "CSS",
+    "source": "CSS 3",
     "target": "SASS / SCSS",
     "value": 1
   },

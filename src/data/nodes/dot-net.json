@@ -46,5 +46,41 @@
     "description": "",
     "weight": 1,
     "group": 7
+  },
+  {
+    "id": "SSIS",
+    "description": "",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "Object Cache",
+    "description": "",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "Razor Engine",
+    "description": "",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "WPF",
+    "description": "",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "WCF",
+    "description": "",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "SharePoint",
+    "description": "",
+    "weight": 1,
+    "group": 7
   }
 ]

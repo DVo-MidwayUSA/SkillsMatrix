@@ -30,6 +30,24 @@
     "group": 1
   },
   {
+    "id": "MS Test",
+    "description": "",
+    "weight": 2,
+    "group": 1
+  },
+  {
+    "id": "NUnit",
+    "description": "",
+    "weight": 2,
+    "group": 1
+  },
+  {
+    "id": "Jasmine",
+    "description": "",
+    "weight": 2,
+    "group": 1
+  },
+  {
     "id": "Wallaby.js",
     "description": "Unit test runner for JavaScript",
     "weight": 3,
@@ -63,6 +81,18 @@
     "id": "Python",
     "description": "Programming language used for browsers and load-balancer development",
     "weight": 3,
+    "group": 1
+  },
+  {
+    "id": "SQL",
+    "description": "Structured Query Language",
+    "weight": 1,
+    "group": 1
+  },
+  {
+    "id": "Clean Code",
+    "description": "Unit test runner for C#",
+    "weight": 1,
     "group": 1
   }
 ]

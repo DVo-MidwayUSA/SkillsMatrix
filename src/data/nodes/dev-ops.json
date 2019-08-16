@@ -40,5 +40,113 @@
     "description": "Microsoft propietary IDE for SQL",
     "weight": 1,
     "group": 8
+  },
+  {
+    "id": "Gulp",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Babel",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Grunt",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Node SASS",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Webpack",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "IIS",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Chef",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Octopus Deploy",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Azure DevOps",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "NGiNX",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Browserify",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Blue / Green Deployments",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Proxy Caching",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "CDN",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Azure Repo / TFVC",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "Git",
+    "description": "",
+    "weight": 1,
+    "group": 8
+  },
+  {
+    "id": "JAMstack",
+    "description": "",
+    "weight": "",
+    "group": 8
+  },
+  {
+    "id": "Headless CMS",
+    "description": "",
+    "weight": "",
+    "group": 8
   }
 ]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "Design",
+    "description": "",
+    "weight": 0,
+    "group": 11
+  },
+  {
+    "id": "User Experience (UX)",
+    "description": "",
+    "weight": 1,
+    "group": 11
+  },
+  {
+    "id": "GUI Design",
+    "description": "",
+    "weight": 1,
+    "group": 11
+  }
+]

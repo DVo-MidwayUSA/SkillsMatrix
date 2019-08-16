@@ -1,68 +1,74 @@
 [
   {
-    "id": "Node.js",
+    "id": "Third Party Integration",
     "description": "",
     "weight": 0,
     "group": 9
   },
   {
-    "id": "Front-end Frameworks",
+    "id": "Akamai CDN",
     "description": "",
     "weight": 1,
     "group": 9
   },
   {
-    "id": "npm",
+    "id": "Power Reviews",
     "description": "",
     "weight": 1,
     "group": 9
   },
   {
-    "id": "ReactJS",
+    "id": "Oracle Endeca",
     "description": "",
-    "weight": 2,
+    "weight": 1,
     "group": 9
   },
   {
-    "id": "AngularJS",
+    "id": "Oracle Responsys",
     "description": "",
-    "weight": 2,
+    "weight": 1,
     "group": 9
   },
   {
-    "id": "Redux",
-    "description": "",
-    "weight": 2,
-    "group": 9
-  },
-  {
-    "id": "Flux",
+    "id": "Twilio",
     "description": "",
     "weight": 4,
     "group": 9
   },
   {
-    "id": "Angular2+",
+    "id": "Converge / Elavon",
     "description": "",
     "weight": 4,
     "group": 9
   },
   {
-    "id": "Preact",
+    "id": "ConnectShip",
     "description": "",
-    "weight": 4,
+    "weight": 1,
     "group": 9
   },
   {
-    "id": "Ember",
+    "id": "Vertex",
     "description": "",
-    "weight": 4,
+    "weight": 1,
     "group": 9
   },
   {
-    "id": "Vue.js",
+    "id": "Google Analytics",
     "description": "",
-    "weight": 4,
+    "weight": 1,
+    "group": 9
+  },
+  {
+    "id": "Google Optimize",
+    "description": "",
+    "weight": 1,
+    "group": 9
+  },
+  {
+    "id": "Google Tag Manager",
+    "description": "",
+    "weight": 1,
     "group": 9
   }
 ]

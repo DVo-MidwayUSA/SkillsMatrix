@@ -4,5 +4,77 @@
     "description": "Working knowledge of desktop applications",
     "weight": 0,
     "group": 6
+  },
+  {
+    "id": "Enterprise Service Bus",
+    "description": "",
+    "weight": 1,
+    "group": 6
+  },
+  {
+    "id": "Desktop Clients",
+    "description": "",
+    "weight": 1,
+    "group": 6
+  },
+  {
+    "id": "Native Mobiel App",
+    "description": "",
+    "weight": 1,
+    "group": 6
+  },
+  {
+    "id": "System Design",
+    "description": "",
+    "weight": 1,
+    "group": 6
+  },
+  {
+    "id": "API Design",
+    "description": "",
+    "weight": 2,
+    "group": 6
+  },
+  {
+    "id": "GraphQL",
+    "description": "",
+    "weight": 2,
+    "group": 6
+  },
+  {
+    "id": "RESTful API",
+    "description": "",
+    "weight": 2,
+    "group": 6
+  },
+  {
+    "id": "RPC API",
+    "description": "",
+    "weight": 3,
+    "group": 6
+  },
+  {
+    "id": "Pub / Sub",
+    "description": "",
+    "weight": 3,
+    "group": 6
+  },
+  {
+    "id": "Machine Learning",
+    "description": "",
+    "weight": 2,
+    "group": 6
+  },
+  {
+    "id": "Microservice",
+    "description": "",
+    "weight": 1,
+    "group": 6
+  },
+  {
+    "id": "Feature Flags",
+    "description": "",
+    "weight": 2,
+    "group": 6
   }
 ]

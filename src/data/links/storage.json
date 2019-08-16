@@ -17,6 +17,11 @@
   {
     "source": "Data Storage",
     "target": "Redis",
-    "value": 2
+    "value": 1
+  },
+  {
+    "source": "SQL Server",
+    "target": "SSIS",
+    "value": 1
   }
 ]

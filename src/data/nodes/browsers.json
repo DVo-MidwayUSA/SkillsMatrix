@@ -28,5 +28,11 @@
     "description": "Ensure WCAG accessibility standards are met for ADA compliance",
     "weight": 1,
     "group": 3
+  },
+  {
+    "id": "Progressive Web Apps",
+    "description": "",
+    "weight": 3,
+    "group": 3
   }
 ]

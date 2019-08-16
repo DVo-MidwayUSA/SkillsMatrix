@@ -73,5 +73,15 @@
     "source": "Programming",
     "target": "Python",
     "value": 1
+  },
+  {
+    "source": "Programming",
+    "target": "SQL",
+    "value": 1
+  },
+  {
+    "source": "SQL",
+    "target": "SSIS",
+    "value": 1
   }
 ]
