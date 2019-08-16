@@ -65,6 +65,10 @@ header menu ul li a:hover {
   text-decoration: underline;
 }
 
+svg {
+  cursor: move;
+}
+
 svg circle {
   cursor: pointer;
   -webkit-user-select: none;

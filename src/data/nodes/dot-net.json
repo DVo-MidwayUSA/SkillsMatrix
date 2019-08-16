@@ -88,5 +88,35 @@
     "description": "",
     "weight": 1,
     "group": 7
+  },
+  {
+    "id": "Universal Windows Platform",
+    "description": "",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "Xamirin",
+    "description": "",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "Windows Forms",
+    "description": "",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "Console Applications",
+    "description": "",
+    "weight": 1,
+    "group": 7
+  },
+  {
+    "id": "Schedule Tasks",
+    "description": "",
+    "weight": 1,
+    "group": 7
   }
 ]

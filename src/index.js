@@ -12,6 +12,7 @@ import display from "./utils/display-maps"
 
 const links = linkData.map(d => Object.create(d))
 const nodes = nodeData.map(d => Object.create(d))
+const windowDimensions = [display.width, display.height]
 
 const simulation = d3
   .forceSimulation(nodes)
@@ -22,7 +23,7 @@ const simulation = d3
 const svg = d3
   .select("main")
   .append("svg")
-  .attr("viewBox", [0, 0, display.width, display.height])
+  .attr("viewBox", [0, 0, ...windowDimensions])
 
 const link = svg
   .append("g")
@@ -68,3 +69,17 @@ label.append("title").text(d => d.id + ": " + d.description)
 
 const elements = [link, node, label]
 calculate(...elements, display.nodeRadius, display.fontSize, simulation)
+
+const zoomed = () => {
+  link.attr("transform", d3.event.transform)
+  label.attr("transform", d3.event.transform)
+  node.attr("transform", d3.event.transform)
+}
+
+svg.call(
+  d3
+    .zoom()
+    .extent([[0, 0], windowDimensions])
+    .scaleExtent([-1, 8])
+    .on("zoom", zoomed)
+)

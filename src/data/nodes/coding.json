@@ -40,5 +40,11 @@
     "description": "",
     "weight": 1,
     "group": 4
+  },
+  {
+    "id": "XAML",
+    "description": "",
+    "weight": 1,
+    "group": 4
   }
 ]
