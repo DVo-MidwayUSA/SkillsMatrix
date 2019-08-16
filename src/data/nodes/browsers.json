@@ -40,5 +40,11 @@
     "description": "",
     "weight": 1,
     "group": 3
+  },
+  {
+    "id": "Browser Performance",
+    "description": "",
+    "weight": 1,
+    "group": 3
   }
 ]

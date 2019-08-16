@@ -1,0 +1,42 @@
+[
+  {
+    "source": "Application Development",
+    "target": "Enterprise Service Bus",
+    "value": 1
+  },
+  {
+    "source": "Application Development",
+    "target": "Desktop Clients",
+    "value": 1
+  },
+  {
+    "source": "Application Development",
+    "target": "Native Mobile App",
+    "value": 1
+  },
+  {
+    "source": "Application Development",
+    "target": "System Design",
+    "value": 1
+  },
+  {
+    "source": "System Design",
+    "target": "API Design",
+    "value": 1
+  },
+  {
+    "source": "System Design",
+    "target": "GraphQL",
+    "value": 1
+  },
+  {
+    "source": "GraphQL",
+    "target": "API Design",
+    "value": 1
+  },
+  {
+    "source": "Application Development",
+    "target": "Test Automation",
+    "value": 1
+  }
+]

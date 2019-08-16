@@ -7,6 +7,7 @@ import nodeJs from "./node-js"
 import dotNet from "./dot-net"
 import devOps from "./dev-ops"
 import thirdParty from "./third-party"
+import applications from "./applications"
 
 const links = [
   ...programming,
@@ -17,7 +18,8 @@ const links = [
   ...nodeJs,
   ...dotNet,
   ...devOps,
-  ...thirdParty
+  ...thirdParty,
+  ...applications
 ]
 
 export default links

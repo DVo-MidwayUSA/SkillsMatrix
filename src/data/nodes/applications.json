@@ -48,6 +48,12 @@
     "group": 6
   },
   {
+    "id": "SOAP API",
+    "description": "",
+    "weight": 2,
+    "group": 6
+  },
+  {
     "id": "RPC API",
     "description": "",
     "weight": 3,
@@ -73,6 +79,24 @@
   },
   {
     "id": "Feature Flags",
+    "description": "",
+    "weight": 2,
+    "group": 6
+  },
+  {
+    "id": "Load Testing",
+    "description": "",
+    "weight": 3,
+    "group": 6
+  },
+  {
+    "id": "Integration Testing",
+    "description": "",
+    "weight": 3,
+    "group": 6
+  },
+  {
+    "id": "Test Automation",
     "description": "",
     "weight": 2,
     "group": 6

@@ -53,6 +53,7 @@ const label = svg
   .data(nodes)
   .join("text")
   .text(d => d.id)
+  .attr("data-weight", d => d.weight)
   .attr("font-size", d => `${1 - d.weight / 10}em`)
   .attr("font-weight", d => (d.weight === 0 ? "bold" : "normal"))
   .attr("font-style", d => (d.weight < 2 ? "normal" : "italic"))
@@ -80,5 +81,17 @@ document.querySelectorAll("text").forEach(label => {
   label.addEventListener("dblclick", e => {
     const description = e.currentTarget.querySelector("title").textContent
     alert(description)
+  })
+})
+
+document.getElementById("toggle").addEventListener("click", e => {
+  e.preventDefault()
+  document.querySelectorAll("[data-weight='1']").forEach(element => {
+    if (element.style.display === "none") {
+      element.style.display = "block"
+      return
+    }
+
+    element.style.display = "none"
   })
 })

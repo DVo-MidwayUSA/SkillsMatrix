@@ -24,7 +24,7 @@
     "group": 4
   },
   {
-    "id": "Freemarker (FML)",
+    "id": "FML",
     "description": "",
     "weight": 1,
     "group": 4
@@ -32,7 +32,7 @@
   {
     "id": "XML",
     "description": "",
-    "weight": 1,
+    "weight": 2,
     "group": 4
   },
   {

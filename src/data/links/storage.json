@@ -23,5 +23,15 @@
     "source": "SQL Server",
     "target": "SSIS",
     "value": 1
+  },
+  {
+    "source": "XML",
+    "target": "Data Storage",
+    "value": 1
+  },
+  {
+    "source": "JSON",
+    "target": "Data Storage",
+    "value": 1
   }
 ]

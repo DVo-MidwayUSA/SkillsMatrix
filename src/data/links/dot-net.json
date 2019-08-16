@@ -58,5 +58,25 @@
     "source": "ASP.NET",
     "target": "Application Development",
     "value": 2
+  },
+  {
+    "source": "ASP.NET",
+    "target": "SSIS",
+    "value": 1
+  },
+  {
+    "source": "ASP.NET",
+    "target": "SQL Server",
+    "value": 1
+  },
+  {
+    "source": "WCF",
+    "target": ".NET Framework",
+    "value": 1
+  },
+  {
+    "source": "WCF",
+    "target": ".NET Standard",
+    "value": 1
   }
 ]
