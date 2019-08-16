@@ -38,28 +38,30 @@ header a:hover {
   color: #fff;
 }
 
-header nav {
+header menu {
+  margin: 0;
+  padding: 0;
   float: right;
 }
 
-header nav ul {
+header menu ul {
   margin: 0;
   padding: 0;
 }
 
-header nav ul li {
+header menu ul li {
   margin: 0 10px;
   padding: 0;
   display: inline-block;
   list-style-type: none;
 }
 
-header nav ul li a {
+header menu ul li a {
   font-size: 12px;
   line-height: 30px;
 }
 
-header nav ul li a:hover {
+header menu ul li a:hover {
   text-decoration: underline;
 }
 
@@ -77,4 +79,29 @@ svg text {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+menu.detail {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+menu.detail button {
+  display: block;
+  opacity: 0.3;
+  cursor: pointer;
+  width: 10px;
+  height: 12px;
+  border: 0;
+  margin: 10px 5px;
+  border-radius: 50%;
+  outline: none;
+}
+
+menu.detail button:hover {
+  opacity: 1;
 }

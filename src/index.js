@@ -1,4 +1,5 @@
 import "./main.css"
+import "./components/interaction-tools"
 import * as d3 from "d3"
 
 import linkData from "./data/links/"
@@ -53,6 +54,7 @@ const label = svg
   .data(nodes)
   .join("text")
   .text(d => d.id)
+  .attr("data-group", d => d.group)
   .attr("data-weight", d => d.weight)
   .attr("font-size", d => `${1 - d.weight / 10}em`)
   .attr("font-weight", d => (d.weight === 0 ? "bold" : "normal"))
@@ -66,32 +68,3 @@ label.append("title").text(d => d.id + ": " + d.description)
 
 const elements = [link, node, label]
 calculate(...elements, display.nodeRadius, display.fontSize, simulation)
-
-document.getElementById("help").addEventListener("click", e => {
-  e.preventDefault()
-  const message = `Technical Skills Map - Help:
-  \u2022 Drag a skill to move or reposition
-  \u2022 Drag an anchor to fix position
-  \u2022 Click a skill release an anchor
-  \u2022 Double-click a skill to view description`
-  alert(message)
-})
-
-document.querySelectorAll("text").forEach(label => {
-  label.addEventListener("dblclick", e => {
-    const description = e.currentTarget.querySelector("title").textContent
-    alert(description)
-  })
-})
-
-document.getElementById("toggle").addEventListener("click", e => {
-  e.preventDefault()
-  document.querySelectorAll("[data-weight='1']").forEach(element => {
-    if (element.style.display === "none") {
-      element.style.display = "block"
-      return
-    }
-
-    element.style.display = "none"
-  })
-})
