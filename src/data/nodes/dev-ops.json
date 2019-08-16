@@ -140,7 +140,7 @@
   {
     "id": "JAMstack",
     "description": "",
-    "weight": "",
+    "weight": 3,
     "group": 8
   },
   {

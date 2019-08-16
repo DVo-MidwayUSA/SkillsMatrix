@@ -48,6 +48,18 @@
     "group": 1
   },
   {
+    "id": "Jest",
+    "description": "",
+    "weight": 2,
+    "group": 1
+  },
+  {
+    "id": "Mocha / Chai",
+    "description": "",
+    "weight": 2,
+    "group": 1
+  },
+  {
     "id": "Wallaby.js",
     "description": "Unit test runner for JavaScript",
     "weight": 3,

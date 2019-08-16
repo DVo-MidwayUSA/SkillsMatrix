@@ -1,0 +1,92 @@
+[
+  {
+    "source": "Third Party Integration",
+    "target": "Akamai CDN",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "Akamai Image Manager",
+    "value": 1
+  },
+  {
+    "source": "Akamai CDN",
+    "target": "Akamai Image Manager",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "Power Reviews",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "Oracle Endeca",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "Oracle Responsys",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "Twilio",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "Converge / Elavon",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "ConnectShip",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "Vertex",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "Google Analytics",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "Google Optimize",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "Google Tag Manager",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "Great Plains",
+    "value": 1
+  },
+  {
+    "source": "Google Optimize",
+    "target": "Google Analytics",
+    "value": 1
+  },
+  {
+    "source": "Google Tag Manager",
+    "target": "Google Analytics",
+    "value": 1
+  },
+  {
+    "source": "Google Optimize",
+    "target": "Google Tag Manager",
+    "value": 1
+  },
+  {
+    "source": "Third Party Integration",
+    "target": "Application Development",
+    "value": 2
+  }
+]

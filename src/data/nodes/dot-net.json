@@ -82,5 +82,11 @@
     "description": "",
     "weight": 1,
     "group": 7
+  },
+  {
+    "id": "Windows Service",
+    "description": "",
+    "weight": 1,
+    "group": 7
   }
 ]

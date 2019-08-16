@@ -34,5 +34,11 @@
     "description": "",
     "weight": 3,
     "group": 3
+  },
+  {
+    "id": "Load Balancing",
+    "description": "",
+    "weight": 1,
+    "group": 3
   }
 ]

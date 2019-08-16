@@ -42,6 +42,7 @@ const node = svg
   .join("circle")
   .attr("r", display.nodeRadius)
   .attr("fill", d => display.groupColor(d.group))
+  .attr("fill-opacity", d => 1 - d.weight / 12)
   .call(dragNode(simulation))
 
 node.append("title").text(d => `Move: ${d.id}`)
@@ -56,7 +57,7 @@ const label = svg
   .attr("font-weight", d => (d.weight === 0 ? "bold" : "normal"))
   .attr("font-style", d => (d.weight < 2 ? "normal" : "italic"))
   .attr("fill", d => display.groupColor(d.group))
-  .attr("fill-opacity", d => 1 - d.weight / 10)
+  .attr("fill-opacity", d => 1 - d.weight / 12)
   .attr("background", "white")
   .call(dragLabel(simulation))
 

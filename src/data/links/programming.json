@@ -40,7 +40,47 @@
     "value": 1
   },
   {
+    "source": "Wallaby.js",
+    "target": "Jasmine",
+    "value": 1
+  },
+  {
+    "source": "Wallaby.js",
+    "target": "Jest",
+    "value": 1
+  },
+  {
+    "source": "Jasmine",
+    "target": "JavaScript",
+    "value": 1
+  },
+  {
+    "source": "Jest",
+    "target": "JavaScript",
+    "value": 1
+  },
+  {
+    "source": "NUnit",
+    "target": "NCrunch",
+    "value": 1
+  },
+  {
     "source": "NCrunch",
+    "target": "Unit Testing",
+    "value": 1
+  },
+  {
+    "source": "NUnit",
+    "target": "Unit Testing",
+    "value": 1
+  },
+  {
+    "source": "MS Test",
+    "target": "NCrunch",
+    "value": 1
+  },
+  {
+    "source": "MS Test",
     "target": "Unit Testing",
     "value": 1
   },

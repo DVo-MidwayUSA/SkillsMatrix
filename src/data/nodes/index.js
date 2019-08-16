@@ -8,7 +8,7 @@ import dotNet from "./dot-net"
 import devOps from "./dev-ops"
 import nodeJs from "./node-js"
 import thirdParty from "./third-party"
-import analysis from "./analysis"
+import support from "./support"
 import design from "./design"
 
 const nodes = [
@@ -22,7 +22,7 @@ const nodes = [
   ...devOps,
   ...nodeJs,
   ...thirdParty,
-  ...analysis,
+  ...support,
   ...design
 ]
 

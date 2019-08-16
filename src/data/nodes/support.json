@@ -1,0 +1,56 @@
+[
+  {
+    "id": "Support",
+    "description": "",
+    "weight": 0,
+    "group": 10
+  },
+  {
+    "id": "Analysis",
+    "description": "",
+    "weight": 1,
+    "group": 10
+  },
+  {
+    "id": "Quality Assurance",
+    "description": "",
+    "weight": 0,
+    "group": 10
+  },
+  {
+    "id": "Splunk",
+    "description": "",
+    "weight": 1,
+    "group": 10
+  },
+  {
+    "id": "Power BI",
+    "description": "",
+    "weight": 1,
+    "group": 10
+  },
+  {
+    "id": "Troubleshooting",
+    "description": "",
+    "weight": 1,
+    "group": 10
+  },
+  {
+    "id": "After Hours Response",
+    "description": "",
+    "weight": 1,
+    "group": 10
+  },
+  {
+    "id": "Documentation",
+    "description": "",
+    "weight": 1,
+    "group": 10
+  },
+  {
+    "id": "Skill Development",
+    "description": "",
+    "weight": 1,
+    "group": 10
+  }
+]

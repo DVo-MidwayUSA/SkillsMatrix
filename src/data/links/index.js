@@ -6,6 +6,7 @@ import storage from "./storage"
 import nodeJs from "./node-js"
 import dotNet from "./dot-net"
 import devOps from "./dev-ops"
+import thirdParty from "./third-party"
 
 const links = [
   ...programming,
@@ -15,7 +16,8 @@ const links = [
   ...storage,
   ...nodeJs,
   ...dotNet,
-  ...devOps
+  ...devOps,
+  ...thirdParty
 ]
 
 export default links
