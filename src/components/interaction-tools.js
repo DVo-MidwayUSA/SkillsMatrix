@@ -37,7 +37,9 @@ document.getElementById("help").addEventListener("click", e => {
     \u2022 Drag a skill to move or reposition
     \u2022 Drag an anchor to fix position
     \u2022 Click a skill release an anchor
-    \u2022 Double-click a skill to view description`
+    \u2022 Hover over a skill to view description
+    \u2022 Toggle label display by color using menus in bottom left
+    \u2022 Zoom using click wheel`
   alert(message)
 })
 

@@ -66,7 +66,11 @@ header menu ul li a:hover {
 }
 
 svg {
-  cursor: move;
+  cursor: grab;
+}
+
+svg:active {
+  cursor: grabbing;
 }
 
 svg circle {
@@ -77,12 +81,20 @@ svg circle {
   user-select: none;
 }
 
+svg circle:active {
+  cursor: grabbing;
+}
+
 svg text {
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+svg text:active {
+  cursor: grabbing;
 }
 
 menu.detail {
