@@ -35,8 +35,53 @@
     "value": 1
   },
   {
+    "source": "RESTful API",
+    "target": "API Design",
+    "value": 1
+  },
+  {
+    "source": "System Design",
+    "target": "RESTful API",
+    "value": 1
+  },
+  {
+    "source": "RPC API",
+    "target": "API Design",
+    "value": 1
+  },
+  {
+    "source": "System Design",
+    "target": "RPC API",
+    "value": 1
+  },
+  {
+    "source": "System Design",
+    "target": "Pub / Sub",
+    "value": 1
+  },
+  {
+    "source": "Pub / Sub",
+    "target": "API Design",
+    "value": 1
+  },
+  {
     "source": "Application Development",
     "target": "Test Automation",
+    "value": 1
+  },
+  {
+    "source": "System Design",
+    "target": "Feature Flags",
+    "value": 1
+  },
+  {
+    "source": "Application Development",
+    "target": "State Management",
+    "value": 1
+  },
+  {
+    "source": "System Design",
+    "target": "State Management",
     "value": 1
   }
 ]

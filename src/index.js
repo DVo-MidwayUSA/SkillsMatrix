@@ -80,6 +80,6 @@ svg.call(
   d3
     .zoom()
     .extent([[0, 0], windowDimensions])
-    .scaleExtent([-1, 8])
+    .scaleExtent([0, 8])
     .on("zoom", zoomed)
 )

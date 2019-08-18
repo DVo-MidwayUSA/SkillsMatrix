@@ -100,5 +100,11 @@
     "description": "",
     "weight": 2,
     "group": 6
+  },
+  {
+    "id": "State Management",
+    "description": "",
+    "weight": 2,
+    "group": 6
   }
 ]
